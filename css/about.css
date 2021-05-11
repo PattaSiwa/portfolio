@@ -1,0 +1,24 @@
+.about {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about img{
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 3rem;
+    padding:.3rem;
+    border: .5rem solid var(--secondary)
+    
+}
+
+.profile-pic {
+    margin: auto;
+    text-align: center;
+}
+
+.about p, .about h3 {
+    margin: 1em;
+    letter-spacing: 1px;
+}
+

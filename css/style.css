@@ -16,7 +16,10 @@
 
 body {
     margin: 0;
-    background: var(--secondary);
+    background: #4A4A4A;
+background: -moz-linear-gradient(45deg, #4A4A4A 0%, #C7C7C7 0%, #292929 100%);
+background: -webkit-linear-gradient(45deg, #4A4A4A 0%, #C7C7C7 0%, #292929 100%);
+background: linear-gradient(45deg, #4A4A4A 0%, #C7C7C7 0%, #292929 100%);
     font-family: 'Oswald', sans-serif;
 }
 
