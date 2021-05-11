@@ -57,7 +57,7 @@
 }
 
 .slider {
-    background: var(--accent);
+    background: var(--primary);
     position: fixed;
     top: 0;
     left:0;
@@ -78,8 +78,9 @@
 
 @media screen and (max-width:800px){
     .landing {
-    font-size: .45em;
+    font-size: .6em;
     background-position-x: 100%;
+    background-image: url('https://images.unsplash.com/photo-1596003906949-67221c37965c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
     
     }
 
@@ -88,13 +89,13 @@
     }
 
     .intro-text {
-        font-size: .8em;
+        font-size: 1.2em;
         margin-left: 1rem;
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .landing {
-        background-image: url('https://images.unsplash.com/photo-1596003906949-67221c37965c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+        font-size: .4em;
     }
 }
