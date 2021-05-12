@@ -15,7 +15,10 @@
 
 <body>
     <header>
-        <img class="logo-top" src="assets/icons/favicon.png" alt="logo">
+        <div class="logo-a">
+            <a href="#"><img class="logo-top" src="assets/icons/favicon.png" alt="logo"></a>
+        </div>
+
         <input type="checkbox" class="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
             <span></span>
@@ -54,7 +57,7 @@
     <main>
         <section id="about" class="about">
 
-            <div class="about-text">
+            <div class="about-text fade-in from-right">
                 <h3>About Me</h3>
 
                 <p>I am a Full-Stack Web Developer with a background in social service and restaurant
@@ -66,10 +69,14 @@
                     technology we use.
                 </p>
             </div>
-            <div class="profile-pic">
+            <div class="profile-pic fade-in from-left">
                 <img src="assets/pictures/profile.JPG" alt="picture of Pattarapon">
             </div>
 
+        </section>
+        <section id="resume" class="resume">
+            <h1>RESUME HERE</h1>
+            <h1>DOWNLOADABLE HOPEFULLY</h1>
         </section>
 
     </main>
@@ -77,6 +84,7 @@
         integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
         crossorigin="anonymous"></script>
     <script src="js/animation.js"></script>
+    <script src="js/intersectionObv.js"></script>
 </body>
 
 </html>

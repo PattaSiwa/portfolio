@@ -76,8 +76,7 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
-
-.nav-tog-label span, .nav-tog-label span::before, .nav-tog-label span::after {
+.nav-tog-label span, .nav-tog-label span::before, .nav-tog-label span::after{
 display: block;
 background: var(--light);
 height:2px;
@@ -86,7 +85,8 @@ border-radius: 2px;
 position: relative;
 }
 
-.nav-tog-label span::before, .nav-tog-label span::after {
+
+.nav-tog-label span::before, .nav-tog-label span::after{
     content: '';
     position: absolute;
 }
@@ -113,8 +113,17 @@ position: relative;
     }
 
     .logo-top {
+
+        margin-top: .7rem;
+    }
+
+    .logo-a {
         grid-column: 1/2;
-        margin-left: 2rem;
+        text-align: center;
+    }
+
+    .logo-top a {
+        align-items: center;
     }
 
     nav {
