@@ -97,6 +97,10 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
     line-height: .9rem;
 }
 
+.experience-text li {
+    line-height: 1.4rem;
+}
+
 
 .experience p {
     font-family: 'Roboto Condensed', sans-serif;
@@ -109,13 +113,21 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
     text-align: right;
 }
 
+.exp-logo{
+    width: 100px;
+}
+
 @media screen and (min-width:700px){
+
+    .resume {
+        font-size: 30px;
+    }
     .resume-pdf {
     display:block
     }   
 
     .resume h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin-top: 0;
     }
 
@@ -132,9 +144,40 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
 
     .icons {
       width: 60%;
+        margin:3rem auto;
+    }
+
+    .experience-text {
+        display: flex;
+        justify-content: baseline;
+        
+    }
+
+    .title, .experience-text li {
+        line-height: 2rem;
+    }
+    
+    .title {
+        width: 30%
+    }
+    .exp-description {
+        margin-left: 5rem;
+        width: 50%
+    }
+
+    .resume h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .skills, .experience {
+        width: 80%;
         margin: auto;
     }
     
+    .exp-logo{
+        width: 200px
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -143,12 +186,12 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
     }   
 
     .resume h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 0;
     }
 
     .download-btn {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-top: 1rem;
         padding: .5rem;
     }
