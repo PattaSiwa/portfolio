@@ -99,6 +99,10 @@
         height: 150px;
     
     }
+
+    .school p{
+        line-height: auto;
+    }
 }
 
 @media screen and (min-width:1200px){
@@ -133,5 +137,9 @@
         width: 200px;
         height: 200px;
     
+    }
+    .education {
+        width: 80%;
+        margin: 0 auto;
     }
 }
