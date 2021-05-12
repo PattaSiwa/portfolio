@@ -46,7 +46,31 @@
     padding-bottom: 2rem;
 }
 
+.education{
+    width: 100%;
+}
 
+.education h3 {
+    padding-left: 1rem;
+}
+
+.school-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%
+}
+
+.school {
+    width: 45%;
+}
+
+.school img{
+    width: 100px;
+    height: 100px;
+
+}
 
 @media screen and (min-width:700px){
 
@@ -64,6 +88,16 @@
 
     .about p {
         font-size: 2em;
+    }
+    .school {
+        width: 30%;
+    }
+
+    
+    .school img{
+        width: 150px;
+        height: 150px;
+    
     }
 }
 
@@ -93,5 +127,11 @@
 
     .about p {
         margin-top:3.5rem;
+    }
+
+    .school img{
+        width: 200px;
+        height: 200px;
+    
     }
 }
