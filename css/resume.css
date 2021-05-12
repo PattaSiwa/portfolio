@@ -1,3 +1,155 @@
 .resume {
     min-height: 100vh;
+    background: var(--secondary);
+    background: -moz-linear-gradient(top, #1B1F26 0%, #5E6C85 100%);
+background: -webkit-linear-gradient(top, #1B1F26 0%, #5E6C85 100%);
+background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.resume h1{
+    padding-top: 3.5rem;
+    color: var(--light);
+    margin-bottom: .2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.download-btn {
+    border: none;
+    padding: .3rem;
+    transition: .2s;
+    font-size: .8em;
+    border-radius: 3px;
+}
+
+.download-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(189, 170, 170);
+
+}
+
+.resume-pdf {
+    padding-top: 2rem;
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.resume-text {
+    color: var(--light)
+}
+
+.resume hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.skills {
+    text-align: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.resume-text p {
+    letter-spacing: 1px;
+}
+
+.resume-text span {
+    font-weight: 600;
+}
+
+.resume-text h3 {
+    text-align: start;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.experience table {
+    width: 100%;
+}
+
+.experience-text {
+    text-align: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.experience h3 {
+    margin-left: 1rem;
+}
+
+.title {
+    line-height: .9rem;
+}
+
+
+.experience p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.company {
+    text-align: left;
+}
+.date {
+    text-align: right;
+}
+
+@media screen and (min-width:700px){
+    .resume-pdf {
+    display:block
+    }   
+
+    .resume h1 {
+    font-size: 2em;
+    margin-top: 0;
+    }
+
+    .download-btn {
+        font-size: 1em;
+        margin-top: 1rem;
+        padding: .5rem;
+    }
+
+    .tech-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icons {
+      width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .resume-pdf {
+    display:block
+    }   
+
+    .resume h1 {
+    font-size: 3em;
+    margin-top: 0;
+    }
+
+    .download-btn {
+        font-size: 1.5em;
+        margin-top: 1rem;
+        padding: .5rem;
+    }
 }

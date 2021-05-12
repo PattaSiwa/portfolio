@@ -5,7 +5,7 @@
     margin: auto;
     height: 100vh;
     background: grey;
-    background-image: url('/assets/pictures/landing4.JPG');
+    background-image: url('/assets/pictures/landing2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -19,8 +19,8 @@
 
 .landing h1{
     font-size: 5em;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
     margin-bottom: .2rem;
 }
 

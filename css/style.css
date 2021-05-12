@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Open+Sans:ital,wght@0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
-    --primary: #0A0B0D;
+    --primary: #0a0b0d;
     --secondary:#1B1F26;
     --accent: #3B4B59;
     --light: #dce5eb;
