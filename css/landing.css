@@ -49,6 +49,30 @@
     align-items: center;
 }
 
+.landing button {
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    min-height: 2rem;
+    color: var(--accent);
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    transition: .3s;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.landing button:hover {
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+.landing-social img {
+    width: 100px;
+}
+
 .intro-text {
     color: var(--light);
     font-weight: 600;
@@ -65,6 +89,8 @@
     height: 100%;
     transform: translateY(100%);
 }
+
+
 
 .hide {
     background: var(--secondary);
@@ -91,6 +117,10 @@
     .intro-text {
         font-size: 1.2em;
         margin-left: 1rem;
+    }
+
+    .landing button {
+        width: 70%;
     }
 }
 

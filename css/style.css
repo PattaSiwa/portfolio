@@ -37,3 +37,13 @@ main {
     height: 200vh
 }
 
+/* animation for intersection observer */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+
+.fade-in.appear {
+    opacity:1;
+}

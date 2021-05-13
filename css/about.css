@@ -33,14 +33,7 @@
     font-size: 1.5em;
 }
 
-.fade-in {
-    opacity: 0;
-    transition: opacity .5s ease-in;
-}
 
-.fade-in.appear {
-    opacity:1;
-}
 
 .about-text {
     padding-bottom: 2rem;

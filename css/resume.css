@@ -122,9 +122,6 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
     .resume {
         font-size: 30px;
     }
-    .resume-pdf {
-    display:block
-    }   
 
     .resume h1 {
     font-size: 1em;
@@ -181,10 +178,9 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
 }
 
 @media screen and (min-width:1200px){
-    .resume-pdf {
-    display:block
-    }   
-
+    .resume {
+        padding-bottom: 3rem;
+    }
     .resume h1 {
     font-size: 2em;
     margin-top: 0;
