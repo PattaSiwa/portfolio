@@ -134,3 +134,9 @@ box-shadow: 2px 1px 11px 2px rgba(165,165,165,0.54);
         max-width: 500px;
     }
 }
+
+@media screen and (min-width:1200px){
+    .card{
+        max-width: 600px;
+    }
+}
