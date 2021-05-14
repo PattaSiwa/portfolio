@@ -142,8 +142,9 @@
     }
 
     .icons {
-      width: 80%;
+      width: 100%;
     margin:3rem auto;
+    flex-wrap: wrap;
     }
 
     .experience-text {
@@ -192,5 +193,9 @@
         font-size: 1em;
         margin-top: 1rem;
         padding: .5rem;
+    }
+
+    .icons {
+        width: 80%;
     }
 }
