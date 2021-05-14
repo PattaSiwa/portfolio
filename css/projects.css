@@ -1,4 +1,30 @@
 .projects {
-    min-height: 100vh;
+    min-height: auto;
     color: var(--light)
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 90%;
+    margin-top: 1rem;
+    text-align: center;
+    background: var(--shadow)
+}
+
+video {
+    width: 90%;
+    
+}
+
+.project-logo {
+    width: 40%;
+    height: auto;
+    padding-top: .5rem;
 }
