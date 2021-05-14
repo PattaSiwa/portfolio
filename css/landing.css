@@ -52,7 +52,7 @@
 .landing button {
     border: none;
     margin-top: 1rem;
-    width: 100%;
+    width: 90%;
     min-height: 2rem;
     color: var(--accent);
     font-size: 2em;
@@ -112,6 +112,10 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
     .landing h1 {
         margin-bottom: 3rem;
+    }
+
+    .landing button {
+        width: 80%;
     }
 
     .intro-text {

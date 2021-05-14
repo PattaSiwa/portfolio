@@ -2,7 +2,7 @@ const faders = document.querySelectorAll('.fade-in')
 
 
 const appearOptions = {
-    threshold: .7,
+    threshold: .5,
 }
 
 

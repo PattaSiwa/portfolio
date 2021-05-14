@@ -1,9 +1,10 @@
 .resume {
     min-height: 100vh;
     background: var(--secondary);
-    background: -moz-linear-gradient(top, #1B1F26 0%, #5E6C85 100%);
-background: -webkit-linear-gradient(top, #1B1F26 0%, #5E6C85 100%);
-background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
+    background: #5E6C85;
+    background: -moz-linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
+    background: -webkit-linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
+    background: linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -137,11 +138,12 @@ background: linear-gradient(to bottom, #1B1F26 0%, #5E6C85 100%);
     .tech-icon {
         width: 100px;
         height: 100px;
+        margin: 0 1rem;
     }
 
     .icons {
-      width: 60%;
-        margin:3rem auto;
+      width: 80%;
+    margin:3rem auto;
     }
 
     .experience-text {
