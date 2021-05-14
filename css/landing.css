@@ -5,7 +5,7 @@
     margin: auto;
     height: 100vh;
     background: grey;
-    background-image: url('/assets/pictures/landing2.png');
+    background-image: url('https://images.unsplash.com/photo-1605860632725-fa88d0ce7a07?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

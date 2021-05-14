@@ -110,6 +110,7 @@
         width: 50%
     }
     .about-text{
+        padding-top: 2rem;
         width:50%;
         color: var(--light);
         background: rgba(54, 60, 65, 0.8);
