@@ -17,9 +17,12 @@ footer img {
 
 @media screen and (min-width:800px){
     footer {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     footer img {
-        width: 200px
+        width: 200px;
+        margin-bottom: 1rem;
     }
+
+   
 }
