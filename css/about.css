@@ -23,7 +23,7 @@
 }
 
 .about p, .about h3 {
-    margin: 0 2rem;
+    margin: 0 1rem;
     margin-top: 1rem;
     letter-spacing: 1px;
 }
@@ -31,6 +31,7 @@
 .about-text h3 {
     text-align: center;
     font-size: 1.5em;
+    
 }
 
 
@@ -39,31 +40,7 @@
     padding-bottom: 2rem;
 }
 
-.education{
-    width: 100%;
-}
 
-.education h3 {
-    padding-left: 1rem;
-}
-
-.school-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 100%
-}
-
-.school {
-    width: 45%;
-}
-
-.school img{
-    width: 100px;
-    height: 100px;
-
-}
 
 @media screen and (min-width:700px){
 

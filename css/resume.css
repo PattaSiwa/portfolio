@@ -113,6 +113,32 @@
     width: 100px;
 }
 
+.education{
+    width: 100%;
+}
+
+.education h3 {
+    padding-left: 1rem;
+}
+
+.school-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%
+}
+
+.school {
+    width: 45%;
+}
+
+.school img{
+    width: 100px;
+    height: 100px;
+
+}
+
 @media screen and (min-width:700px){
 
     .resume {
