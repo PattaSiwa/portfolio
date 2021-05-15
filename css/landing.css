@@ -110,6 +110,15 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     display: inline-block;
 }
 
+.port-logo {
+    width: 50%;
+    max-width: 300px
+}
+
+.landing h1 {
+    margin-top: 0;
+}
+
 
 @media screen and (max-width:800px){
     .landing {

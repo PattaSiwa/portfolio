@@ -1,6 +1,6 @@
 .contact {
     color: var(--light);
-    padding-top: 2rem ; 
+    padding: 2rem 0; 
     min-height: 50vh;
     background-color: var(--secondary);
 }
@@ -23,8 +23,8 @@
     max-width: 900px;
     background: var(--shadow);
     padding: 2rem .5rem;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 10px 13px -7px #707070, 5px 5px 15px 5px rgba(150, 150, 150, 0); 
+    box-shadow: 0px 10px 13px -7px #707070, 5px 5px 15px 5px rgba(150, 150, 150, 0);
 }
 
 .contact form label {
@@ -66,6 +66,14 @@
     font-size: 1em;
     color: var(--light);
     font-family: "Oswald";
+    transition: .2s;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.contact form button:hover {
+    cursor: pointer;
+    transform: scale(1.01)
 }
 
 
@@ -76,7 +84,12 @@
 .contact-social img {
     width: 50px;
     margin: .5rem 1rem;
+    transition: .2s
 
+}
+
+.contact-social img:hover {
+    transform: scale(1.05)
 }
 
 @media screen and (min-width:1200px){
@@ -100,4 +113,10 @@
         font-size: 1.5em;
         height: 3rem;
     }
+    .contact-social img {
+        width: 80px;
+        margin: 1rem 1.5rem;
+    
+    }
+    
 }
