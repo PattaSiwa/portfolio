@@ -133,6 +133,12 @@ box-shadow: 2px 1px 11px 2px rgba(165,165,165,0.54);
         width:41%;
         max-width: 500px;
     }
+
+    .project-logo {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width:1200px){
