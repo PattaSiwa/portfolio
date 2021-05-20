@@ -7,6 +7,7 @@
     background: linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    border-top: 5px solid var(--primary);
 }
 
 .resume h1{

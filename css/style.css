@@ -38,9 +38,7 @@ p {
 
 
 
-main {
-    height: 200vh
-}
+
 
 /* animation for intersection observer */
 
@@ -51,4 +49,10 @@ main {
 
 .fade-in.appear {
     opacity:1;
+}
+
+@media screen and (min-width:1200px){
+  body {
+      font-size: 15px;
+  }
 }

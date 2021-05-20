@@ -106,7 +106,7 @@
 }
 
 .hide span {
-    transform: translateX(-100%);
+    transform: translateX(200%);
     display: inline-block;
 }
 
