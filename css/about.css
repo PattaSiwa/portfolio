@@ -26,7 +26,10 @@
     margin: 0 1rem;
     margin-top: 1rem;
     letter-spacing: 1px;
+    color: var(--light)
 }
+
+
 
 .about-text h3 {
     text-align: center;
@@ -102,6 +105,9 @@
 
     .about p {
         margin-top:3.5rem;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .school img{
