@@ -32,6 +32,8 @@
     max-width: 700px;
     display: block;
     margin: auto;
+    margin-top: 2rem;
+  
 }
 
 .contact form input{
@@ -41,6 +43,7 @@
     max-width: 700px;
     height: 2rem;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1;
 
 }
 
@@ -80,6 +83,8 @@
 .contact-social {
     padding-top: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .contact-social img {
     width: 50px;
@@ -98,11 +103,16 @@
     display: block;
     text-decoration: none;
     transition: .3s;
+    margin-bottom: 2rem;
 }
 
 .contact a:hover {
     transform: scale(1.1);
+    color: var(--secondary)
 }
+
+
+
 
 @media screen and (min-width:1200px){
     .contact form input, .contact label, .contact textarea{
@@ -132,7 +142,12 @@
     }
 
     .contact a {
-        font-size: 1.5em;
+        font-size: 1.6em;
+        margin-bottom: 4rem;
     }
     
+    .contact form label{
+        font-size: 1.5em;
+    }
+
 }
