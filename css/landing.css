@@ -157,6 +157,7 @@
         font-size: .4em;
         background: url('/assets/pictures/background.jpeg') no-repeat center;
         background-attachment:unset;
+        height: auto;
     }
 
     .title-text {
