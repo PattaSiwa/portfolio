@@ -155,6 +155,7 @@
 @media screen and (max-width:500px){
     .landing {
         font-size: .4em;
-        background-image: url('/assets/pictures/background.jpeg')
+        background: url('/assets/pictures/background.jpeg') no-repeat center;
+      
     }
 }
