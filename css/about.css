@@ -1,8 +1,6 @@
 .about {
     margin-top: 1.5rem;
     width: 100%;
-    min-height: 100vh;
-    
     transition: .4s;
     display: flex;
     flex-flow: column;
@@ -49,6 +47,7 @@
 
     .about {
         margin-top: 0;
+        min-height: 90vh;
     }
 
     .about img {
@@ -108,6 +107,7 @@
         width: 75%;
         margin-right: auto;
         margin-left: auto;
+        
     }
 
     .school img{
