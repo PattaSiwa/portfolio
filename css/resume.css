@@ -1,223 +1,222 @@
 .resume {
-    min-height: 100vh;
-    background: var(--secondary);
-    background: #5E6C85;
-    background: -moz-linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-    background: -webkit-linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-    background: linear-gradient(45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-top: 5px solid var(--primary);
+  min-height: 100vh;
+  background: var(--secondary);
+  background: #5e6c85;
+  background: -moz-linear-gradient(45deg, #5e6c85 0%, #61708a 0%, #323947 100%);
+  background: -webkit-linear-gradient(
+    45deg,
+    #5e6c85 0%,
+    #61708a 0%,
+    #323947 100%
+  );
+  background: linear-gradient(45deg, #5e6c85 0%, #61708a 0%, #323947 100%);
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  border-top: 5px solid var(--primary);
 }
 
-.resume h1{
-    padding-top: 3.5rem;
-    color: var(--light);
-    margin-bottom: .2rem;
-    font-family: 'Oswald', sans-serif;
+.resume h1 {
+  padding-top: 3.5rem;
+  color: var(--light);
+  margin-bottom: 0.2rem;
+  font-family: "Oswald", sans-serif;
 }
 
 .download-btn {
-    border: none;
-    padding: .3rem;
-    transition: .2s;
-    font-size: .8em;
-    border-radius: 3px;
-    background-color: var(--light);
+  border: none;
+  padding: 0.3rem;
+  transition: 0.2s;
+  font-size: 0.8em;
+  border-radius: 3px;
+  background-color: var(--light);
 }
 
 .download-btn:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    background: rgb(189, 170, 170);
-
+  cursor: pointer;
+  transform: scale(1.05);
+  background: rgb(189, 170, 170);
 }
 
-
-
 .resume-text {
-    color: var(--light)
+  color: var(--light);
 }
 
 .resume hr {
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 .skills {
-    text-align: start;
-    padding-left: 1rem;
-    padding-right: 1rem;
-
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .resume-text p {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .resume-text span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .resume-text h3 {
-    text-align: start;
-    text-decoration: underline;
-    font-family: 'Oswald', sans-serif;
+  text-align: start;
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
 }
 
 .icons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tech-icon {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .experience table {
-    width: 100%;
+  width: 100%;
 }
 
 .experience-text {
-    text-align: start;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .experience h3 {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .title {
-    line-height: .9rem;
+  line-height: 0.9rem;
 }
 
 .experience-text li {
-    line-height: 1.4rem;
+  line-height: 1.4rem;
 }
 
-
 .experience p {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .company {
-    text-align: left;
+  text-align: left;
 }
 .date {
-    text-align: right;
+  text-align: right;
 }
 
-.exp-logo{
-    width: 100px;
+.exp-logo {
+  width: 100px;
 }
 
-.education{
-    width: 100%;
+.education {
+  width: 100%;
 }
 
 .education h3 {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-.school-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 100%
+.school-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
 }
 
 .school {
-    width: 45%;
+  width: 45%;
 }
 
-.school img{
-    width: 100px;
-    height: 100px;
-
+.school img {
+  width: 100px;
+  height: 100px;
 }
 
-@media screen and (min-width:700px){
+@media screen and (min-width: 700px) {
+  .resume {
+    font-size: 30px;
+  }
 
-    .resume {
-        font-size: 30px;
-    }
-
-    .resume h1 {
+  .resume h1 {
     font-size: 1em;
     margin-top: 0;
-    }
+  }
 
-    .download-btn {
-        font-size: 1em;
-        margin-top: 1rem;
-        padding: .5rem;
-    }
+  .download-btn {
+    font-size: 1em;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
 
-    .tech-icon {
-        width: 100px;
-        height: 100px;
-        margin: 0 1rem;
-    }
+  .tech-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 1rem;
+  }
 
-    .icons {
-      width: 100%;
-    margin:3rem auto;
+  .icons {
+    width: 100%;
+    margin: 3rem auto;
     flex-wrap: wrap;
-    }
+  }
 
-    .experience-text {
-        display: flex;
-        justify-content: baseline;
-        
-    }
+  .experience-text {
+    display: flex;
+    justify-content: baseline;
+  }
 
-    .title, .experience-text li {
-        line-height: 2rem;
-    }
-    
-    .title {
-        width: 30%
-    }
-    .exp-description {
-        margin-left: 5rem;
-        width: 50%
-    }
+  .title,
+  .experience-text li {
+    line-height: 2rem;
+  }
 
-    .resume h3 {
-        text-align: center;
-        font-size: 1.5em;
-    }
+  .title {
+    width: 30%;
+  }
+  .exp-description {
+    margin-left: 5rem;
+    width: 50%;
+  }
 
-    .skills, .experience {
-        width: 80%;
-        margin: auto;
-    }
-    
-    .exp-logo{
-        width: 200px
-    }
+  .resume h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .skills,
+  .experience {
+    width: 80%;
+    margin: auto;
+  }
+
+  .exp-logo {
+    width: 200px;
+  }
 }
 
-@media screen and (min-width:1200px){
-    .resume {
-        padding-bottom: 3rem;
-    }
-    .resume h1 {
+@media screen and (min-width: 1200px) {
+  .resume {
+    padding-bottom: 3rem;
+  }
+  .resume h1 {
     font-size: 2em;
     margin-top: 0;
-    }
+  }
 
-    .download-btn {
-        font-size: 1em;
-        margin-top: 1rem;
-        padding: .5rem;
-    }
+  .download-btn {
+    font-size: 1em;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
 
-    .icons {
-        width: 80%;
-    }
+  .icons {
+    width: 80%;
+  }
 }

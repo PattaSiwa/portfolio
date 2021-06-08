@@ -1,154 +1,148 @@
 .contact {
-    color: var(--light);
-    padding: 2rem 0; 
-    min-height: 50vh;
-    background-color: var(--secondary);
+  color: var(--light);
+  padding: 2rem 0;
+  min-height: 50vh;
+  background-color: var(--secondary);
 }
 
-
 .contact p {
-    width: 90%;
-    margin:auto;
-    padding-bottom: 2rem;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2rem;
 }
 
 .contact h1 {
-    text-decoration: underline;
-    text-align: center;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .contact form {
-    margin: auto;
-    width: 90%;
-    max-width: 900px;
-    background: var(--shadow);
-    padding: 2rem .5rem;
-    -webkit-box-shadow: 0px 10px 13px -7px #707070, 5px 5px 15px 5px rgba(150, 150, 150, 0); 
-    box-shadow: 0px 10px 13px -7px #707070, 5px 5px 15px 5px rgba(150, 150, 150, 0);
+  margin: auto;
+  width: 90%;
+  max-width: 900px;
+  background: var(--shadow);
+  padding: 2rem 0.5rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #707070,
+    5px 5px 15px 5px rgba(150, 150, 150, 0);
+  box-shadow: 0px 10px 13px -7px #707070,
+    5px 5px 15px 5px rgba(150, 150, 150, 0);
 }
 
 .contact form label {
-    text-align: start;
-    max-width: 700px;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
-  
+  text-align: start;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
 }
 
-.contact form input{
-    display: block;
-    width: 100%;
-    margin: auto;
-    max-width: 700px;
-    height: 2rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1;
-
+.contact form input {
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-width: 700px;
+  height: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1;
 }
 
 .contact textarea {
-    resize: vertical;
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    height: 5rem;
-    margin: auto;
-    font-family: 'Roboto Condensed', sans-serif;
+  resize: vertical;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 5rem;
+  margin: auto;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .contact form button {
-    width: 100%;
-    display:block;
-    height: 2rem;
-    max-width: 700px;
-    text-align: center;
-    margin: 2rem auto;
-    border: none;
-    background-color: var(--accent);
-    font-size: 1em;
-    color: var(--light);
-    font-family: "Oswald";
-    transition: .2s;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  width: 100%;
+  display: block;
+  height: 2rem;
+  max-width: 700px;
+  text-align: center;
+  margin: 2rem auto;
+  border: none;
+  background-color: var(--accent);
+  font-size: 1em;
+  color: var(--light);
+  font-family: "Oswald";
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .contact form button:hover {
-    cursor: pointer;
-    transform: scale(1.01)
+  cursor: pointer;
+  transform: scale(1.01);
 }
-
 
 .contact-social {
-    padding-top: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  padding-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .contact-social img {
-    width: 50px;
-    margin: .5rem 1rem;
-    transition: .2s
-
+  width: 50px;
+  margin: 0.5rem 1rem;
+  transition: 0.2s;
 }
 
 .contact-social img:hover {
-    transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 .contact a {
-    color: var(--light);
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    transition: .3s;
-    margin-bottom: 2rem;
+  color: var(--light);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 2rem;
 }
 
 .contact a:hover {
-    transform: scale(1.1);
-    color: var(--secondary)
+  transform: scale(1.1);
+  color: var(--secondary);
 }
 
+@media screen and (min-width: 1200px) {
+  .contact form input,
+  .contact label,
+  .contact textarea {
+    height: 3rem;
+    font-size: 1.2em;
+  }
 
+  .contact p {
+    font-size: 1.5em;
+  }
 
+  .contact h1 {
+    font-size: 2.5em;
+  }
+  .contact textarea {
+    height: 5rem;
+  }
 
-@media screen and (min-width:1200px){
-    .contact form input, .contact label, .contact textarea{
-        height: 3rem;
-        font-size: 1.2em;
-    }
+  .contact form button {
+    font-size: 1.5em;
+    height: 3rem;
+  }
+  .contact-social img {
+    width: 80px;
+    margin: 1rem 1.5rem;
+  }
 
-    .contact p {
-        font-size: 1.5em;
-    }
+  .contact a {
+    font-size: 1.6em;
+    margin-bottom: 4rem;
+  }
 
-    .contact h1 {
-        font-size: 2.5em;
-    }
-    .contact textarea {
-        height: 5rem;
-    }
-
-    .contact form button {
-        font-size: 1.5em;
-        height: 3rem;
-    }
-    .contact-social img {
-        width: 80px;
-        margin: 1rem 1.5rem;
-    
-    }
-
-    .contact a {
-        font-size: 1.6em;
-        margin-bottom: 4rem;
-    }
-    
-    .contact form label{
-        font-size: 1.5em;
-    }
-
-   
+  .contact form label {
+    font-size: 1.5em;
+  }
 }

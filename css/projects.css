@@ -1,148 +1,155 @@
 .projects {
-    height:auto;
-    color: var(--light);
-    background: #5E6C85;
-background: -moz-linear-gradient(-45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-background: -webkit-linear-gradient(-45deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-background: linear-gradient(135deg, #5E6C85 0%, #61708A 0%, #323947 100%);
-    padding: 1rem 0; 
+  height: auto;
+  color: var(--light);
+  background: #5e6c85;
+  background: -moz-linear-gradient(
+    -45deg,
+    #5e6c85 0%,
+    #61708a 0%,
+    #323947 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #5e6c85 0%,
+    #61708a 0%,
+    #323947 100%
+  );
+  background: linear-gradient(135deg, #5e6c85 0%, #61708a 0%, #323947 100%);
+  padding: 1rem 0;
 
-    border-top: 5px solid var(--primary);
+  border-top: 5px solid var(--primary);
 }
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.card{
-    width: 90%;
-    margin-top: 1rem;
-    text-align: center;
-    background: var(--accent);
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-    
+.card {
+  width: 90%;
+  margin-top: 1rem;
+  text-align: center;
+  background: var(--accent);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 video {
-    width: 90%;
-    border: .2rem solid var(--shadow);
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-    
+  width: 90%;
+  border: 0.2rem solid var(--shadow);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .project-logo {
-    width:30%;
-    height: auto;
-    padding-top: .5rem;
+  width: 30%;
+  height: auto;
+  padding-top: 0.5rem;
 }
 
-.projects :is(h1,h3){
-    margin-left: 1rem;
-    text-decoration: underline;
+.projects :is(h1, h3) {
+  margin-left: 1rem;
+  text-decoration: underline;
 }
 
 .project-text {
-    text-align: left;
-    width: 90%;
-    margin: auto;
+  text-align: left;
+  width: 90%;
+  margin: auto;
 }
 
 .git-repo-logo {
-    width: 50px;
-    transition: .2s
+  width: 50px;
+  transition: 0.2s;
 }
 
 .project-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-links button {
-    background-color: var(--light);
-    border: none;
-    padding: .4rem;
-    margin-right: 2rem;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
-    transition: .2s
+  background-color: var(--light);
+  border: none;
+  padding: 0.4rem;
+  margin-right: 2rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  transition: 0.2s;
 }
 
 .project-text p {
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 1px;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
-.project-links button:hover{
-    cursor: pointer;
-    -webkit-box-shadow: 2px 1px 11px 2px rgba(165,165,165,0.54); 
-box-shadow: 2px 1px 11px 2px rgba(165,165,165,0.54);
+.project-links button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 1px 11px 2px rgba(165, 165, 165, 0.54);
+  box-shadow: 2px 1px 11px 2px rgba(165, 165, 165, 0.54);
 }
 
-.project-links img:hover{
-    transform: scale(1.05)
+.project-links img:hover {
+  transform: scale(1.05);
 }
 
-@media screen and (min-width:700px){
-   
-    .projects :is(h1,h3){
-        text-align: center;
-    }
+@media screen and (min-width: 700px) {
+  .projects :is(h1, h3) {
+    text-align: center;
+  }
 
-    .projects h1{
-        font-size: 3em;
-    }
-    .projects h3{
-        font-size: 2em;
-    }
+  .projects h1 {
+    font-size: 3em;
+  }
+  .projects h3 {
+    font-size: 2em;
+  }
 
-    .projects h4 {
-        font-size: 1.5em;
-    }
+  .projects h4 {
+    font-size: 1.5em;
+  }
 
-    .projects p {
-        font-size: 1.5em;
-    }
-    .card {
-        width:41%;
-        margin: 2rem;
-    }
+  .projects p {
+    font-size: 1.5em;
+  }
+  .card {
+    width: 41%;
+    margin: 2rem;
+  }
 
-    .project-links{
+  .project-links {
+    padding-bottom: 2rem;
+  }
 
-        padding-bottom: 2rem;
-    }
+  .project-links button {
+    font-size: 1em;
+  }
 
-    .project-links button {
-        font-size: 1em;
-    }
-
-    .git-repo-logo{
-        width: 70px;
-    }
+  .git-repo-logo {
+    width: 70px;
+  }
 }
 
-@media screen and (min-width:1000px){
-    .card{
-        width:41%;
-        max-width: 500px;
-    }
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 41%;
+    max-width: 500px;
+  }
 
-    .project-logo {
-        width: 5rem;
-        height: 5rem;
-        margin-bottom: 1rem;
-    }
+  .project-logo {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
 }
 
-@media screen and (min-width:1200px){
-    .card{
-        max-width: 600px;
-    }
+@media screen and (min-width: 1200px) {
+  .card {
+    max-width: 600px;
+  }
 }
