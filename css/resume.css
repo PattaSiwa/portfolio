@@ -1,5 +1,4 @@
 .resume {
-  min-height: 100vh;
   background: var(--secondary);
   background: #5e6c85;
   background: -moz-linear-gradient(45deg, #5e6c85 0%, #61708a 0%, #323947 100%);
@@ -192,7 +191,7 @@
 
   .skills,
   .experience {
-    width: 80%;
+    width: 70%;
     margin: auto;
   }
 
