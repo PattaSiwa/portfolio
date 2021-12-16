@@ -34,6 +34,7 @@
 
 .about-text {
   padding-bottom: 2rem;
+  line-height: 3.5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -64,6 +65,10 @@
 
   .school p {
     line-height: auto;
+  }
+
+  .about-text {
+    line-height: 1rem;
   }
 }
 
@@ -106,5 +111,8 @@
   .education {
     width: 80%;
     margin: 0 auto;
+  }
+  .about-text {
+    line-height: 1rem;
   }
 }
