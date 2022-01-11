@@ -25,6 +25,7 @@
   margin-top: 1rem;
   letter-spacing: 1px;
   color: var(--light);
+  line-height: 3.5rem;
 }
 
 .about-text h3 {
