@@ -1,45 +1,18 @@
 const nav = document.getElementById("nav");
 const toggle = nav.querySelector(".nav__toggle");
 
-// Nav: frosted background once scrolled, mobile menu toggle
-const onScroll = () => nav.classList.toggle("scrolled", window.scrollY > 24);
-onScroll();
-window.addEventListener("scroll", onScroll, { passive: true });
-
+// Mobile menu toggle
 toggle.addEventListener("click", () => {
   const open = nav.classList.toggle("open");
   toggle.setAttribute("aria-expanded", open);
-  document.body.style.overflow = open ? "hidden" : "";
 });
 
 nav.querySelectorAll(".nav__links a").forEach((link) =>
   link.addEventListener("click", () => {
     nav.classList.remove("open");
     toggle.setAttribute("aria-expanded", "false");
-    document.body.style.overflow = "";
   })
 );
-
-// Reveal on scroll, staggering siblings that enter together
-const revealer = new IntersectionObserver(
-  (entries) => {
-    entries
-      .filter((e) => e.isIntersecting)
-      .forEach((entry, i) => {
-        entry.target.style.setProperty("--d", `${i * 0.08}s`);
-        entry.target.classList.add("in");
-        revealer.unobserve(entry.target);
-      });
-  },
-  { threshold: 0.15, rootMargin: "0px 0px -40px 0px" }
-);
-document.querySelectorAll("main > section:not(.hero) .reveal").forEach((el) => revealer.observe(el));
-
-// Hero plays its intro on load (the title spans start clipped, so an observer would never see them)
-document.querySelectorAll(".hero .reveal").forEach((el, i) => {
-  el.style.setProperty("--d", `${0.15 + i * 0.12}s`);
-  requestAnimationFrame(() => el.classList.add("in"));
-});
 
 // Lazy-load project videos and only play them while visible
 const player = new IntersectionObserver(
