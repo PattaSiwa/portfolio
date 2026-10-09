@@ -316,7 +316,7 @@
             <p>Always happy to talk frontend architecture, accessibility, design systems, or just swap notes.</p>
             <a class="contact__mail" href="mailto:pattasiwa@gmail.com">pattasiwa@gmail.com</a>
           </div>
-          <form class="form reveal" action="https://formsubmit.co/pattasiwa@gmail.com" method="POST">
+          <form class="form reveal" id="contact-form" action="https://formsubmit.co/pattasiwa@gmail.com" method="POST" target="_blank">
             <input type="hidden" name="_subject" value="New message from pattasiwa.com" />
             <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" />
             <label>
@@ -332,6 +332,7 @@
               <textarea name="message" rows="5" required placeholder="What's on your mind?"></textarea>
             </label>
             <button type="submit" class="btn btn--primary">Send message <span aria-hidden="true">→</span></button>
+            <p class="form__status" role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
